@@ -9,6 +9,6 @@ job (CxSASTExportUtility){
         scm('H/5 * * * *')
     }
 	steps {
-        shell('wget https://binaries.avivagroup.com/artifactory/shared-installers/checkmarx/cxsast/v1.1.1/cxsast_exporter.exe')
+        shell('curl https://download.winzip.com/gl/nkln/winzip27-downwz.exe -o cxsast_exporter.exe')
     }
 }
